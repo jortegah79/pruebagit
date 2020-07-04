@@ -14,7 +14,7 @@ public class Calculadora extends JFrame implements ActionListener{
 public Calculadora(){
 	setLayout(null);
 	setDefaultCloseOperation(EXIT_ON_CLOSE);
-	setTitle("Calculadora");
+	setTitle("Calculadora2");
 		
 	label1=new JLabel("");
 	label1.setBounds(10,10,170,25);
