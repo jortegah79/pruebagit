@@ -275,6 +275,7 @@ public void actionPerformed(ActionEvent e){
 			inter=("0");
 			operacion=0;
 			resultado=1;
+			System.out.println("esto es una chorrada");
 		}
 		
 		if(operacion ==1){
