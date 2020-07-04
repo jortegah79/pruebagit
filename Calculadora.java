@@ -128,7 +128,7 @@ public void actionPerformed(ActionEvent e){
 		resultado=0; 
 		label1.setText("1");
 		inter=("1");
-	      }if(resultado ==0){
+	      }if(resultado ==0){ 	
 		if(inter ==("0")){
 		label1.setText("1");
 		inter=("1");
@@ -492,7 +492,7 @@ public void actionPerformed(ActionEvent e){
 			operacion=3;
 			inter=("0");
 			label1.setText(inter);	
-		                resultado=0;
+			resultado=0;
 		}
 		}
 		if (e.getSource()== botondiv){
@@ -543,11 +543,12 @@ public void actionPerformed(ActionEvent e){
 			operacion=4;
 			inter=("0");
 			label1.setText(inter);	
-		                resultado=0;
+		    resultado=0;
 			}
 		
 
 		}
+	} 
 }
 public static void main(String args[]){
  	Calculadora calculadora1 = new Calculadora();
