@@ -556,6 +556,7 @@ public static void main(String args[]){
 	calculadora1.setBounds(0,0,270,280);
 	calculadora1.setVisible(true);
 	calculadora1.setResizable(false);
+	calculadora1.setTitle("Calculadora");
 	calculadora1.setLocationRelativeTo(null);
  }
 }
