@@ -99,7 +99,7 @@ public Calculadora(){
 	add(botonsum);
 	botonsum.addActionListener(this);
 
-	botoncl = new JButton("CL");
+	botoncl = new JButton("CLear");
 	botoncl.setBounds(190,10,50,25);
 	add(botoncl);
 	botoncl.addActionListener(this);
@@ -275,7 +275,7 @@ public void actionPerformed(ActionEvent e){
 			inter=("0");
 			operacion=0;
 			resultado=1;
-			System.out.println("esto es una chorrada");
+		
 		}
 		
 		if(operacion ==1){
