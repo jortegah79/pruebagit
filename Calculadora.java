@@ -99,7 +99,7 @@ public Calculadora(){
 	add(botonsum);
 	botonsum.addActionListener(this);
 
-	botoncl = new JButton("CL");
+	botoncl = new JButton("CLear");
 	botoncl.setBounds(190,10,50,25);
 	add(botoncl);
 	botoncl.addActionListener(this);
